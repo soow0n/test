@@ -352,6 +352,15 @@ span.highlight {
 /* Tab content area */
 .tab-content {
   padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#teaser-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tab-pane {
@@ -367,6 +376,7 @@ img {
   vertical-align: middle;
   /* width: 100%; */
 }
+
 
 .outer-container {
   position: relative;
@@ -461,6 +471,7 @@ img {
   color: black;
 }
 
+
 .carousel-row {
   display: flex;
   justify-content: center;
@@ -484,6 +495,7 @@ img {
   object-fit: cover; /* Ensure image covers the square area */
   border-radius: 8px; /* Optional rounded corners */
 }
+
 
 [class*="-demo"] {
   opacity: 0.6;

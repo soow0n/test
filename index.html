@@ -85,8 +85,9 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2402.09812"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark"
+                   style="font-size: 16px;">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
@@ -95,8 +96,9 @@
               </span>
             
               <span class="link-block">
-                <a href="https://github.com/KU-CVLAB/DreamMatcher"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark"
+                   style="font-size: 16px;">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
@@ -114,7 +116,7 @@
   <div class="container is-max-desktop">
     
     <!-- TEASER SLIDER -->
-    <div class="teaser-container">
+    <div class="tab-pane" id="teaser-container">
       <div class="row" style="height: 500px; max-width: 100%; background: #f5f5f5; margin: 0; display: flex">
           
         <div class="col-sm-4" style="height: 100%; border-right: 2px solid #f5f5f5; max-width: 50%">
@@ -122,7 +124,7 @@
         </div>
         
           
-        <div class="col-sm-8 teaser">
+        <div class="col-sm-8 container">
           <div style="position: relative;">
               <div class="teaser-mySlides teaser-scene-0 outer-container" style="display: none;">
                 <img class="main-image" src="static/images/teaser_webp/ppr10k_1/jungle.webp">
@@ -198,16 +200,25 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-8">Visual Persnona-500K Dataset</h2>
-          
+          <img width="100%" src="static/images/data_pipeline.png" style="margin-top: 20px; margin-bottom: 10px;" display="flex">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container is-max-desktop">
           <!-- Replicate the Image and Caption below -->
-          <img width="100%" src="static/images/data_pipeline.png" style="margin-top: 20px; margin-bottom: 10px;" display="flex"> <!-- Added margin-top for spacing -->
+      
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
           <div class="content has-text-justified" style="margin-top: 5px;">
             <p style="font-size: 15px;">
-              <strong>Data Curation Details:</strong> (a) When two randomly selected images of the same individual are not wearing the same outfit, 
-              the individual is excluded from the dataset. (b) Otherwise, to ensure full-body consistency across all images for each retained individual, we further refine the dataset 
-              using a sliding window approach.
+              <strong>Data Curation Details :</strong> 
+              (a) When two randomly selected images of the same individual are not wearing the same outfit, 
+              the individual is excluded from the dataset. (b) Otherwise, to ensure full-body consistency across all images for each retained individual, 
+              we further refine the dataset using a sliding window approach.
             </p>
             <br>
+          </div>
         </div>
       </div>
     </div>
@@ -219,19 +230,19 @@
         <div class="column is-four-fifths">
           <div class="content has-text-justified" style="margin-top: 5px;">
             <p style="font-size: 15px;">
-              <strong>Data Statistics:</strong>
+              <strong>Data Statistics :</strong>
               Our curated training dataset, Visual Persona-500K, consists of 580k images representing 100k individuals. 
               (a) illustrates the distribution of the number of images per individual, with over 50% of individuals having more than four images, and shows example image-caption pairs from the same individual. 
               (b) highlights the diversity of individuals based on facial attributes, including race, age, and gender, which are estimated by DeepFace. 
               (c) showcases body structure diversity, segmented into five clusters—full-body, face, torso, legs, and shoes—categorized using a body-parsing method.
             </p>
+            <br>
           </div>
         </div>
-      </div>
-      
-      
+      </div>      
     </div>
     <br>    
+
     <div class="container is-max-desktop">
       
       <div class="columns is-centered has-text-centered">
@@ -246,7 +257,7 @@
 
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <div style="display: flex; justify-content: center; text-align: center; margin-bottom: 5px;">
+    
             
             <div class="content has-text-justified">
               <p style="font-size: 15px;">
@@ -257,7 +268,7 @@
                 Only the body-partitioned transformer decoder and identity cross-attention module are trained.
               </p>
             </div>
-          </div>
+          
           <br>
           <img width="80%" src="static/images/body_part.png" style="margin-top: 20px;"> <!-- Added margin-top for spacing -->
           <div class="content has-text-justified" style="margin-top: 5px;">
@@ -318,27 +329,156 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-8">Applications</h2>
-          <img style="max-width: 100%;" src="static/images/application.png">
-          <div class="content has-text-justified">
-            <p style="font-size: 15px;">
-            (a) Text-guided virtual try-on, (b) human stylization, and (c) character customization.</p>
-          </div>
         </div>
       </div>
+      <!-- Tab Navigation -->
+      <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+              <a href="#tryon-container" aria-controls="tryon">Text-Guided Virtual Try-On</a>
+          </li>
+          <li role="presentation">
+              <a href="#stylization-container" aria-controls="stylization">Human Stylization</a>
+          </li>
+          <li role="presentation">
+              <a href="#character-container" aria-controls="character">Character Customization</a>
+          </li>
+      </ul>
+      <!-- Tab Content -->
+      <div class="tab-content">
+        <div class="tab-pane in active" id="tryon-container">
+          <div class="teaser-container">
+            <div class="row" style="height: 500px; max-width: 100%; background: #f5f5f5; margin: 0; display: flex">
+              
+              <div class="col-sm-4" style="height: 100%; border-right: 2px solid #f5f5f5; max-width: 50%">
+                <img class="main-image" src="static/images/application/virtual-tryon/input.png" alt="Input Image">
+              </div>
+  
+              
+              <div class="col-sm-8 container">
+                  <div style="position: relative;">
+                      
+                      <div class="tryon-mySlides tryon-scene-0 outer-container" style="display: block;">
+                          <img class="main-image" src="static/images/application/virtual-tryon/bicycle.png">
+                      </div>
+                  
+                      <div class="tryon-mySlides tryon-scene-0 outer-container" style="display: none;">
+                          <img class="main-image" src="static/images/application/virtual-tryon/jogging.png">
+                      </div>
+                  
+                      <div class="tryon-mySlides tryon-scene-0 outer-container" style="display: none;">
+                          <img class="main-image" src="static/images/application/virtual-tryon/sketch.png">
+                      </div>      
+                      <a class="two-prev" data-task-name="tryon">❮</a>
+                      <a class="two-next" data-task-name="tryon">❯</a>
+                      
+                  </div>
+              </div>
+  
+            </div>
+            <div class="caption-container">
+                <p id="tryon-caption">Hellos</p>
+            </div>
+            <div class="carousel-row">
+        
+              <div class="carousel-column">
+                <img class="tryon-demo cursor active" src="static/images/application/virtual-tryon/input.png" data-scene-index="0">
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-pane fade" id="stylization-container">
+          <div class="container">
+            <div class="row" style="height: 500px; max-width: 100%; background: #f5f5f5; margin: 0; display: flex">
+              
+              <div class="col-sm-4" style="height: 100%; border-right: 2px solid #222; max-width: 50%">
+                <img class="main-image" src="static/images/application/stylization/input.png" alt="Input Image">
+              </div>
+  
+              
+              <div class="col-sm-8 container">
+                  <div style="position: relative;">
+                      
+                      <div class="styliaztion-mySlides styliaztion-scene-0 outer-container" style="display: block;">
+                          <img class="main-image" src="static/images/application/stylization/anime.png">
+                      </div>
+                  
+                      <div class="stylization-mySlides stylization-scene-0 outer-container" style="display: none;">
+                          <img class="main-image" src="static/images/application/stylization/watercolor.png">
+                      </div>
+                  
+                      <div class="stylization-mySlides stylization-scene-0 outer-container" style="display: none;">
+                        <img class="main-image" src="static/images/application/stylization/pixelart.png">    
+                      </div>      
+                        <a class="two-prev" data-task-name="styliaztion">❮</a>
+                        <a class="two-next" data-task-name="styliaztion">❯</a>
+                      
+                  </div>
+              </div>
+  
+              <div class="caption-container">
+                  <p id="styliaztion-caption">A woman wearing suit at Shibuya at night. She is looking at the camera</p>
+              </div>
+              <div class="carousel-row">
+          
+                <div class="carousel-column">
+                  <img class="stylization-demo cursor active" src="static/images/application/stylization/input.png" data-scene-index="0">
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="character-container">
+          
+            <div class="row" style="height: 500px; max-width: 100%; background: #f5f5f5; margin: 0; display: flex">
+              
+              <div class="col-sm-4" style="height: 100%; border-right: 3px solid #222; max-width: 50%">
+                <img class="main-image" src="static/images/application/character/input.png" alt="Input Image">
+              </div>
+  
+              
+              <div class="col-sm-8 container">
+                  <div style="position: relative;">
+                      
+                      <div class="character-mySlides character-scene-0 outer-container" style="display: block;">
+                          <img class="main-image" src="static/images/application/character/guitar.png">
+                      </div>
+                  
+                      <div class="character-mySlides character-scene-0 outer-container" style="display: none;">
+                          <img class="main-image" src="static/images/application/character/gift.png">
+                      </div>
+                  
+                      <div class="character-mySlides character-scene-0 outer-container" style="display: none;">
+                          <img class="main-image" src="static/images/application/character/skiing.png">
+                        </div>      
+                        <a class="two-prev" data-task-name="character">❮</a>
+                        <a class="two-next" data-task-name="character">❯</a>
+                      
+                  </div>
+              </div>
+  
+              </div>
+              <div class="caption-container">
+                  <p id="character-caption">guitar</p>
+              </div>
+              <div class="carousel-row">
+          
+                  <div class="carousel-column">
+                      <img class="character-demo cursor active" src="static/images/application/character/input.png" data-scene-index="0">
+                  </div>
+              
+              </div>
+            </div>
+          
+        </div>
+      
+      </div>
       </div>
     </div>
     </div>
   </div>
-</section>
-
-      </p>
-      </div>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
 </section>
 
 <section class="section" id="BibTeX">

@@ -1,8 +1,10 @@
 // Tasks and Data
-const tasks = ["teaser"];
+const tasks = ["teaser", "tryon", "stylization", "character"];
 
 const data = {
     "teaser": {
+        "use_20": false,
+        "use_two_sided": true,
         "data": [
             {
                 title: [
@@ -19,20 +21,20 @@ const data = {
                     "A photo of a delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree",
                     "A photo of a thoughtful person, looking out a window, reflecting on life, in a cozy room",
                 ],
-                input_image: "static/images/teaser/ppr10k_1/input.png",
+                input_image: "static/images/teaser_webp/ppr10k_1/input.webp",
                 images: [
-                    "static/images/teaser/ppr10k_1/jungle.png",
-                    "static/images/teaser/ppr10k_1/surfing.png",
-                    "static/images/teaser/ppr10k_1/bicycle.png",
-                    "static/images/teaser/ppr10k_1/sketch.png",
-                    "static/images/teaser/ppr10k_1/flower.png",
-                    "static/images/teaser/ppr10k_1/guitar.png",
-                    "static/images/teaser/ppr10k_1/cooking.png",
-                    "static/images/teaser/ppr10k_1/unicorn.png",
-                    "static/images/teaser/ppr10k_1/rainy.png",
-                    "static/images/teaser/ppr10k_1/laptop.png",
-                    "static/images/teaser/ppr10k_1/gift.png",
-                    "static/images/teaser/ppr10k_1/reflect.png",
+                    "static/images/teaser_webp/ppr10k_1/jungle.webp",
+                    "static/images/teaser_webp/ppr10k_1/surfing.webp",
+                    "static/images/teaser_webp/ppr10k_1/bicycle.webp",
+                    "static/images/teaser_webp/ppr10k_1/sketch.webp",
+                    "static/images/teaser_webp/ppr10k_1/flower.webp",
+                    "static/images/teaser_webp/ppr10k_1/guitar.webp",
+                    "static/images/teaser_webp/ppr10k_1/cooking.webp",
+                    "static/images/teaser_webp/ppr10k_1/unicorn.webp",
+                    "static/images/teaser_webp/ppr10k_1/rainy.webp",
+                    "static/images/teaser_webp/ppr10k_1/laptop.webp",
+                    "static/images/teaser_webp/ppr10k_1/gift.webp",
+                    "static/images/teaser_webp/ppr10k_1/reflect.webp",
                 ]
             },
 
@@ -51,20 +53,20 @@ const data = {
                     "A photo of a delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree",
                     "A photo of a thoughtful person, looking out a window, reflecting on life, in a cozy room",
                 ],
-                input_image: "static/images/teaser/ppr10k_2/input.png",
+                input_image: "static/images/teaser_webp/ppr10k_2/input.webp",
                 images: [
-                    "images/teaser/ppr10k_2/jungle.png",
-                    "images/teaser/ppr10k_2/surfing.png",
-                    "images/teaser/ppr10k_2/bicycle.png",
-                    "images/teaser/ppr10k_2/sketch.png",
-                    "images/teaser/ppr10k_2/flower.png",
-                    "images/teaser/ppr10k_2/guitar.png",
-                    "images/teaser/ppr10k_2/cooking.png",
-                    "images/teaser/ppr10k_2/unicorn.png",
-                    "images/teaser/ppr10k_2/rainy.png",
-                    "images/teaser/ppr10k_2/laptop.png",
-                    "images/teaser/ppr10k_2/gift.png",
-                    "images/teaser/ppr10k_2/reflect.png",
+                    "static/images/teaser_webp/ppr10k_2/jungle.webp",
+                    "static/images/teaser_webp/ppr10k_2/surfing.webp",
+                    "static/images/teaser_webp/ppr10k_2/bicycle.webp",
+                    "static/images/teaser_webp/ppr10k_2/sketch.webp",
+                    "static/images/teaser_webp/ppr10k_2/flower.webp",
+                    "static/images/teaser_webp/ppr10k_2/guitar.webp",
+                    "static/images/teaser_webp/ppr10k_2/cooking.webp",
+                    "static/images/teaser_webp/ppr10k_2/unicorn.webp",
+                    "static/images/teaser_webp/ppr10k_2/rainy.webp",
+                    "static/images/teaser_webp/ppr10k_2/laptop.webp",
+                    "static/images/teaser_webp/ppr10k_2/gift.webp",
+                    "static/images/teaser_webp/ppr10k_2/reflect.webp",
                 ]
             },
 
@@ -83,20 +85,20 @@ const data = {
                     "A photo of a delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree",
                     "A photo of a thoughtful person, looking out a window, reflecting on life, in a cozy room",
                 ],
-                input_image: "static/images/teaser/ppr10k_3/input.png",
+                input_image: "static/images/teaser_webp/ppr10k_3/input.webp",
                 images: [
-                    "images/teaser/ppr10k_3/jungle.png",
-                    "images/teaser/ppr10k_3/surfing.png",
-                    "images/teaser/ppr10k_3/bicycle.png",
-                    "images/teaser/ppr10k_3/sketch.png",
-                    "images/teaser/ppr10k_3/flower.png",
-                    "images/teaser/ppr10k_3/guitar.png",
-                    "images/teaser/ppr10k_3/cooking.png",
-                    "images/teaser/ppr10k_3/unicorn.png",
-                    "images/teaser/ppr10k_3/rainy.png",
-                    "images/teaser/ppr10k_3/laptop.png",
-                    "images/teaser/ppr10k_3/gift.png",
-                    "images/teaser/ppr10k_3/reflect.png",
+                    "static/images/teaser_webp/ppr10k_3/jungle.webp",
+                    "static/images/teaser_webp/ppr10k_3/surfing.webp",
+                    "static/images/teaser_webp/ppr10k_3/bicycle.webp",
+                    "static/images/teaser_webp/ppr10k_3/sketch.webp",
+                    "static/images/teaser_webp/ppr10k_3/flower.webp",
+                    "static/images/teaser_webp/ppr10k_3/guitar.webp",
+                    "static/images/teaser_webp/ppr10k_3/cooking.webp",
+                    "static/images/teaser_webp/ppr10k_3/unicorn.webp",
+                    "static/images/teaser_webp/ppr10k_3/rainy.webp",
+                    "static/images/teaser_webp/ppr10k_3/laptop.webp",
+                    "static/images/teaser_webp/ppr10k_3/gift.webp",
+                    "static/images/teaser_webp/ppr10k_3/reflect.webp",
                 ]
             },
 
@@ -115,20 +117,20 @@ const data = {
                     "A photo of a delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree",
                     "A photo of a thoughtful person, looking out a window, reflecting on life, in a cozy room",
                 ],
-                input_image: "static/images/teaser/sshq_1/input.png",
+                input_image: "static/images/teaser_webp/sshq_1/input.webp",
                 images: [
-                    "images/teaser/sshq_1/jungle.png",
-                    "images/teaser/sshq_1/surfing.png",
-                    "images/teaser/sshq_1/bicycle.png",
-                    "images/teaser/sshq_1/sketch.png",
-                    "images/teaser/sshq_1/flower.png",
-                    "images/teaser/sshq_1/guitar.png",
-                    "images/teaser/sshq_1/cooking.png",
-                    "images/teaser/sshq_1/unicorn.png",
-                    "images/teaser/sshq_1/rainy.png",
-                    "images/teaser/sshq_1/laptop.png",
-                    "images/teaser/sshq_1/gift.png",
-                    "images/teaser/sshq_1/reflect.png",
+                    "static/images/teaser_webp/sshq_1/jungle.webp",
+                    "static/images/teaser_webp/sshq_1/surfing.webp",
+                    "static/images/teaser_webp/sshq_1/bicycle.webp",
+                    "static/images/teaser_webp/sshq_1/sketch.webp",
+                    "static/images/teaser_webp/sshq_1/flower.webp",
+                    "static/images/teaser_webp/sshq_1/guitar.webp",
+                    "static/images/teaser_webp/sshq_1/cooking.webp",
+                    "static/images/teaser_webp/sshq_1/unicorn.webp",
+                    "static/images/teaser_webp/sshq_1/rainy.webp",
+                    "static/images/teaser_webp/sshq_1/laptop.webp",
+                    "static/images/teaser_webp/sshq_1/gift.webp",
+                    "static/images/teaser_webp/sshq_1/reflect.webp",
                 ]
             },
 
@@ -147,20 +149,20 @@ const data = {
                     "A photo of a delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree",
                     "A photo of a thoughtful person, looking out a window, reflecting on life, in a cozy room",
                 ],
-                input_image: "static/images/teaser/sshq_2/input.png",
+                input_image: "static/images/teaser_webp/sshq_2/input.webp",
                 images: [
-                    "images/teaser/sshq_2/jungle.png",
-                    "images/teaser/sshq_2/surfing.png",
-                    "images/teaser/sshq_2/bicycle.png",
-                    "images/teaser/sshq_2/sketch.png",
-                    "images/teaser/sshq_2/flower.png",
-                    "images/teaser/sshq_2/guitar.png",
-                    "images/teaser/sshq_2/cooking.png",
-                    "images/teaser/sshq_2/unicorn.png",
-                    "images/teaser/sshq_2/rainy.png",
-                    "images/teaser/sshq_2/laptop.png",
-                    "images/teaser/sshq_2/gift.png",
-                    "images/teaser/sshq_2/reflect.png",
+                    "static/images/teaser_webp/sshq_2/jungle.webp",
+                    "static/images/teaser_webp/sshq_2/surfing.webp",
+                    "static/images/teaser_webp/sshq_2/bicycle.webp",
+                    "static/images/teaser_webp/sshq_2/sketch.webp",
+                    "static/images/teaser_webp/sshq_2/flower.webp",
+                    "static/images/teaser_webp/sshq_2/guitar.webp",
+                    "static/images/teaser_webp/sshq_2/cooking.webp",
+                    "static/images/teaser_webp/sshq_2/unicorn.webp",
+                    "static/images/teaser_webp/sshq_2/rainy.webp",
+                    "static/images/teaser_webp/sshq_2/laptop.webp",
+                    "static/images/teaser_webp/sshq_2/gift.webp",
+                    "static/images/teaser_webp/sshq_2/reflect.webp",
                 ]
             },
 
@@ -179,23 +181,80 @@ const data = {
                     "A photo of a delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree",
                     "A photo of a thoughtful person, looking out a window, reflecting on life, in a cozy room",
                 ],
-                input_image: "static/images/teaser/sshq_3/input.png",
+                input_image: "static/images/teaser_webp/sshq_3/input.webp",
                 images: [
-                    "images/teaser/sshq_3/jungle.png",
-                    "images/teaser/sshq_3/surfing.png",
-                    "images/teaser/sshq_3/bicycle.png",
-                    "images/teaser/sshq_3/sketch.png",
-                    "images/teaser/sshq_3/flower.png",
-                    "images/teaser/sshq_3/guitar.png",
-                    "images/teaser/sshq_3/cooking.png",
-                    "images/teaser/sshq_3/unicorn.png",
-                    "images/teaser/sshq_3/rainy.png",
-                    "images/teaser/sshq_3/laptop.png",
-                    "images/teaser/sshq_3/gift.png",
-                    "images/teaser/sshq_3/reflect.png",
+                    "static/images/teaser_webp/sshq_3/jungle.webp",
+                    "static/images/teaser_webp/sshq_3/surfing.webp",
+                    "static/images/teaser_webp/sshq_3/bicycle.webp",
+                    "static/images/teaser_webp/sshq_3/sketch.webp",
+                    "static/images/teaser_webp/sshq_3/flower.webp",
+                    "static/images/teaser_webp/sshq_3/guitar.webp",
+                    "static/images/teaser_webp/sshq_3/cooking.webp",
+                    "static/images/teaser_webp/sshq_3/unicorn.webp",
+                    "static/images/teaser_webp/sshq_3/rainy.webp",
+                    "static/images/teaser_webp/sshq_3/laptop.webp",
+                    "static/images/teaser_webp/sshq_3/gift.webp",
+                    "static/images/teaser_webp/sshq_3/reflect.webp",
                 ]
             },
             
+        ]
+    },
+    "tryon": {
+        "use_20": false,
+        "use_two_sided": true,
+        "data" : [
+            {
+                title: [
+                    "A photo of an angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
+                    "A tired person, running mid-stride, joggin through a city, surrounded by tall buildings",
+                    "A photo of a focused person, sitting on a rock, sketching on paper, with mountains in the background",
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/bicycle.png",
+                    "static/images/application/virtual-tryon/jogging.png",
+                    "static/images/application/virtual-tryon/sketch.png"
+                ]
+            }
+        ]
+    },
+    "stylization": {
+        "use_20": false,
+        "use_two_sided": true,
+        "data" : [
+            {
+                title: [
+                    "Anime",
+                    "Watercolor",
+                    "Pixelart"
+                ],
+                input_image: "static/images/application/stylization/input.png",
+                images: [
+                    "static/images/application/stylization/anime.png",
+                    "static/images/application/stylization/watercolor.png",
+                    "static/images/application/stylization/pixelart.png"
+                ]
+            }
+        ]
+    },
+    "character": {
+        "use_20": false,
+        "use_two_sided": true,
+        "data" : [
+            {
+                title: [
+                    "Playing the guitar",
+                    "Opening the gift",
+                    "Skiing downhill"
+                ],
+                input_image: "static/images/application/character/input.png",
+                images: [
+                    "static/images/application/character/guitar.png",
+                    "static/images/application/character/gift.png",
+                    "static/images/application/character/skiing.png"
+                ]
+            }
         ]
     }
 };
@@ -211,10 +270,53 @@ for (let i = 0; i < tasks.length; i++) {
 // Generate the slides and thumbnails dynamically
 function generateSlides(taskName) {
     const slideshowContainer = $("#" + taskName + "-container");
-
+    let slidesHTML = "";
+    let thumbnailsHTML = "";
     let scenes = data[taskName]["data"];
+    let use_20 = data[taskName]["use_20"];
+    let use_two_sided = data[taskName]["use_two_sided"];
 
-    let slidesHTML = '';
+    if (use_20) {
+        scenes.forEach((scene, sceneIndex) => {
+            slidesHTML += `
+                <div class="${taskName}-mySlides ${taskName}-scene-${sceneIndex} outer-container">
+                    <div class="twenty-container">
+            `;
+            scene.images.forEach((image) => {
+                slidesHTML += `
+                    <img class="main-image" src="${image}" alt="${scene.title}">
+                `;
+            });
+            slidesHTML += `
+                    </div> 
+                </div>
+            `;
+
+            thumbnailsHTML += `
+                <div class="carousel-column">
+                    <img class="${taskName}-demo cursor" src="${scene.images[0]}" data-scene-index="${sceneIndex}" alt="${scene.title}">
+                </div>
+            `;
+        });
+
+        slideshowContainer.html(`
+            <div class="container" style="position: relative;">
+                ${slidesHTML}
+
+                <!-- Caption container -->
+                <div class="caption-container">
+                    <p id="${taskName}-caption">${scenes[currentSceneIndex[taskName]].title}</p>
+                </div>
+
+                <!-- Thumbnails -->
+                <div class="carousel-row">
+                    ${thumbnailsHTML}
+                </div>
+            </div>
+        `);
+    }
+    else if (use_two_sided) {
+        let slidesHTML = '';
         let thumbnailsHTML = '';
         let currentScene = scenes[currentSceneIndex[taskName]];
         let first_caption = typeof currentScene.title === 'string' ? currentScene.title : currentScene.title[0];
@@ -223,8 +325,7 @@ function generateSlides(taskName) {
             scene.images.forEach((image, index) => {
                 slidesHTML += `
                     <div class="${taskName}-mySlides ${taskName}-scene-${sceneIndex} outer-container">
-                        <div class="numbertext">${sceneIndex + 1}.${index + 1} / ${scene.images.length}</div>
-                        <img class="main-image" src="${image}">
+                        <img class="main-image" src="${image}" alt="${scene.title}">
                     </div>
                 `;
             });
@@ -237,7 +338,7 @@ function generateSlides(taskName) {
         });
 
         const inputImageHTML = `
-            <div class="col-sm-4" style="height: 100%; border-right: 3px solid #222; max-width: 50%">
+            <div class="col-sm-4" style="height: 100%; max-width: 50%">
                 <img class="main-image" src="${currentScene.input_image}" alt="Input Image">
             </div>
         `;
@@ -255,7 +356,7 @@ function generateSlides(taskName) {
         `;
 
         slideshowContainer.html(`
-            <div class="teaser-container">
+            <div class="container">
                 <div class="row" style="height: 500px; max-width: 100%; background: #f5f5f5; margin: 0; display: flex">
                     ${inputImageHTML}
                     ${carouselHTML}
@@ -268,6 +369,63 @@ function generateSlides(taskName) {
                 </div>
             </div>
         `);
+    }
+    else {
+        scenes.forEach((scene, sceneIndex) => {
+            scene.images.forEach((image, index) => {
+                slidesHTML += `
+                    <div class="${taskName}-mySlides ${taskName}-scene-${sceneIndex} outer-container">
+                        <div class="numbertext">${sceneIndex + 1}.${index + 1} / ${scene.images.length}</div>
+                        <img class="main-image" src="${image}" alt="${scene.title}">
+                    </div>
+                `;
+            });
+
+            thumbnailsHTML += `
+                <div class="carousel-column">
+                    <img class="${taskName}-demo cursor" src="${scene.images[0]}" data-scene-index="${sceneIndex}" alt="${scene.title}">
+                </div>
+            `;
+        });
+        if (scenes[0].images.length > 1) { 
+            slideshowContainer.html(`
+                <div class="container" style="position: relative;">
+                    ${slidesHTML}
+
+                    <!-- Navigation arrows -->
+                    <a class="prev" data-task-name="${taskName}">❮</a>
+                    <a class="next" data-task-name="${taskName}">❯</a>
+
+                    <!-- Caption container -->
+                    <div class="caption-container">
+                        <p id="${taskName}-caption">${scenes[currentSceneIndex[taskName]].title}</p>
+                    </div>
+
+                    <!-- Thumbnails -->
+                    <div class="carousel-row">
+                        ${thumbnailsHTML}
+                    </div>
+                </div>
+            `);
+        }
+        else{
+            slideshowContainer.html(`
+                <div class="container" style="position: relative;">
+                    ${slidesHTML}
+
+                    <!-- Caption container -->
+                    <div class="caption-container">
+                        <p id="${taskName}-caption">${scenes[currentSceneIndex[taskName]].title}</p>
+                    </div>
+
+                    <!-- Thumbnails -->
+                    <div class="carousel-row">
+                        ${thumbnailsHTML}
+                    </div>
+                </div>
+            `);
+        }
+    }
 
     // Initialize the first slide
     showSlides(slideIndex, taskName);
@@ -305,6 +463,8 @@ function showSlides(n, taskName) {
     let dots = $(`.${taskName}-demo`);
     let captionText = $(`#${taskName}-caption`);
     let scenes = data[taskName]["data"];
+    let use_20 = data[taskName]["use_20"];
+    let use_two_sided = data[taskName]["use_two_sided"];
 
     if (n > slides.length) { slideIndex = 1; }
     if (n < 1) { slideIndex = slides.length; }
@@ -312,13 +472,24 @@ function showSlides(n, taskName) {
     slides.hide();
     dots.removeClass("active");
 
-    // Update the input image on the left side
-    let currentScene = scenes[currentSceneIndex[taskName]];
-    $(`.teaser-container .col-sm-4 img`).attr('src', currentScene.input_image);
-    
-    // Show the current slide on the right side
-    let sceneSlides = $(`.${taskName}-scene-${currentSceneIndex[taskName]}`);
-    sceneSlides.eq(slideIndex - 1).show();
+    if (use_20) {
+        let sceneSlides = $(`.${taskName}-scene-${currentSceneIndex[taskName]}`);
+        sceneSlides.eq(slideIndex - 1).show();
+
+        $(".twenty-container").twentytwenty();
+        $(".twenty-container").css("height", "500px");
+    } else if (use_two_sided) {
+        // Update the input image on the left side
+        let currentScene = scenes[currentSceneIndex[taskName]];
+        $(`#${taskName}-container .col-sm-4 img`).attr('src', currentScene.input_image);
+        
+        // Show the current slide on the right side
+        let sceneSlides = $(`.${taskName}-scene-${currentSceneIndex[taskName]}`);
+        sceneSlides.eq(slideIndex - 1).show();
+    } else {
+        let sceneSlides = $(`.${taskName}-scene-${currentSceneIndex[taskName]}`);
+        sceneSlides.eq(slideIndex - 1).show();
+    }
     
     dots.eq(currentSceneIndex[taskName]).addClass("active");
     if (typeof scenes[currentSceneIndex[taskName]].title === 'string') {
@@ -347,6 +518,7 @@ $(document).ready(function() {
         // Update tab content
         $('.tab-pane').removeClass('in active').addClass('fade');
         $(targetId).addClass('in active').removeClass('fade');
+        $('#teaser-container').addClass('in active');
         
         // split using "-" and get the first element
         let taskName = targetId.split("-")[0].replace("#", "");
