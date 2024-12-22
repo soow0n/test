@@ -212,7 +212,7 @@
         <div class="column is-four-fifths">
           <div class="content has-text-justified" style="margin-top: 5px;">
             <p style="font-size: 15px;">
-              <strong>Data Curation Details :</strong> 
+              <strong>Data Curation Details : </strong> 
               (a) When two randomly selected images of the same individual are not wearing the same outfit, 
               the individual is excluded from the dataset. (b) Otherwise, to ensure full-body consistency across all images for each retained individual, 
               we further refine the dataset using a sliding window approach.
@@ -230,7 +230,7 @@
         <div class="column is-four-fifths">
           <div class="content has-text-justified" style="margin-top: 5px;">
             <p style="font-size: 15px;">
-              <strong>Data Statistics :</strong>
+              <strong>Data Statistics : </strong>
               Our curated training dataset, Visual Persona-500K, consists of 580k images representing 100k individuals. 
               (a) illustrates the distribution of the number of images per individual, with over 50% of individuals having more than four images, and shows example image-caption pairs from the same individual. 
               (b) highlights the diversity of individuals based on facial attributes, including race, age, and gender, which are estimated by DeepFace. 
@@ -261,7 +261,7 @@
             
             <div class="content has-text-justified">
               <p style="font-size: 15px;">
-                <strong>Overall Architecture:</strong> Our network augments the input human image into body regions, which are encoded into local features by an image transformer encoder. 
+                <strong>Overall Architecture : </strong>Our network augments the input human image into body regions, which are encoded into local features by an image transformer encoder. 
                 A body-partitioned transformer decoder projects these features into learnable identity embeddings via cross-attention, followed by self-attention and MLP. 
                 After M iterations, the embeddings are concatenated to form a stacked identity embedding. 
                 The identity embedding and text embedding from detailed captions condition a pre-trained T2I diffusion model to synthesize a new image with the input identity. 
@@ -273,7 +273,7 @@
           <img width="80%" src="static/images/body_part.png" style="margin-top: 20px;"> <!-- Added margin-top for spacing -->
           <div class="content has-text-justified" style="margin-top: 5px;">
             <p style="font-size: 15px;">
-              <strong>Body Part Decomposition:</strong>
+              <strong>Body Part Decomposition : </strong>
               It is important for the diffusion model to attend independently to each distinct body part from the input and map it to the corresponding part in the synthesized image. 
               To achieve this, we augment the input image (a) into N distinct body images. 
               We (b) leverage an off-the-shelf body parsing method to parse body regions and (c) group them into N-1 categories. 
@@ -296,7 +296,7 @@
           <img style="max-width: 100%; margin-top: -11px;" src="static/images/main_qual_2.webp">
           <div class="content has-text-justified">
             <p style="font-size: 15px;">
-              <strong>Qualitative Comparison on SSHQ and PPR10K</strong> Compared to prior works that focus on face identity preservation, or fail to capture the input's detailed appearance, 
+              <strong>Qualitative Comparison on SSHQ and PPR10K : </strong>Compared to prior works that focus on face identity preservation, or fail to capture the input's detailed appearance, 
               Visual Persona accurately preserves the full-body appearance while generating diverse images based on text prompts.
             </p>
           </div>
@@ -304,7 +304,7 @@
           <img style="max-width: 70%; margin-bottom: 10px;" src="static/images/quan_table.png">
           <div class="content has-text-justified">
             <p style="font-size: 15px;">
-              <strong>Quantitative Comparison</strong> Visual Persona significantly outperforms previous methods in identity preservation (D-I), 
+              <strong>Quantitative Comparison : </strong>Visual Persona significantly outperforms previous methods in identity preservation (D-I), 
               while maintaining comparable text alignment (D-T), ultimately achieving the best harmonic mean (D-H).
             </p>
           </div>
@@ -313,7 +313,7 @@
           <img style="max-width: 70%; margin-bottom: 10px;" src="static/images/human_evaluation.png">
           <div class="content has-text-justified">
             <p style="font-size: 15px;">
-              <strong>Human Evaluation</strong> Unlike previous methods that are biased toward text alignment or produce artificial outputs, 
+              <strong>Human Evaluation : </strong>Unlike previous methods that are biased toward text alignment or produce artificial outputs, 
               Visual Persona surpasses these approaches in SC, which concurrently measures identity preservation and text alignment, as well as in PQ, which evaluates image quality, 
               achieving the highest overall score O.
             </p>
