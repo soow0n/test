@@ -203,7 +203,32 @@ const data = {
     "tryon": {
         "use_20": false,
         "use_two_sided": true,
+        "garments": {
+            "upper": [
+                "static/images/application/virtual-tryon/clothes/upper1.webp",
+                "static/images/application/virtual-tryon/clothes/upper2.webp"
+            ],
+            "lower": [
+                "static/images/application/virtual-tryon/clothes/lower1.webp",
+                "static/images/application/virtual-tryon/clothes/lower2.webp"
+            ],
+            "shoes": [
+                "static/images/application/virtual-tryon/clothes/shoes1.webp",
+                "static/images/application/virtual-tryon/clothes/shoes2.webp"
+            ]
+        },
         "data" : [
+            {
+                title: [
+                    "A focused person, kneeling down, planting flowers, with a modern house in the background",
+                    "A focused person, kneeling down, planting flowers, with a modern house in the background",
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/1-1-1-flower1.webp",
+                    "static/images/application/virtual-tryon/1-1-1-flower2.webp",
+                ]
+            },
             {
                 title: [
                     "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
@@ -212,11 +237,79 @@ const data = {
                 ],
                 input_image: "static/images/application/virtual-tryon/input.png",
                 images: [
-                    "static/images/application/virtual-tryon/bicycle.png",
-                    "static/images/application/virtual-tryon/jogging.png",
-                    "static/images/application/virtual-tryon/sketch.png"
+                    "static/images/teaser_webp/sshq_1/laptop.webp",
+                    "static/images/teaser_webp/sshq_1/gift.webp",
+                    "static/images/teaser_webp/sshq_1/reflect.webp",
                 ]
-            }
+            },
+            {
+                title: [
+                    "A happy person, standing on a branch, climbing a tree, surrounded by a dense jungle",
+                    "A happy person, standing on a branch, climbing a tree, surrounded by a dense jungle"
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/1-2-1-jungle1.webp",
+                    "static/images/application/virtual-tryon/1-2-1-jungle2.webp"
+                ]
+            },
+            {
+                title: [
+                    "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
+                    "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings"
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/1-2-2-bike1.webp",
+                    "static/images/application/virtual-tryon/1-2-2-bike2.webp"
+                ]
+            },
+            {
+                title: [
+                    "A proud person, standing and smiling broadly, holding a trophy, in the Olympic Stadium",
+                    "A proud person, standing and smiling broadly, holding a trophy, in the Olympic Stadium"
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/2-1-1-trophy1.webp",
+                    "static/images/application/virtual-tryon/2-1-1-trophy2.webp"
+                ]
+            },
+            {
+                title: [
+                    "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
+                    "A tired person, running mid-stride, joggin through a city, surrounded by tall buildings",
+                    "A focused person, sitting on a rock, sketching on paper, with mountains in the background",
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/teaser_webp/ppr10k_3/laptop.webp",
+                    "static/images/teaser_webp/ppr10k_3/gift.webp",
+                    "static/images/teaser_webp/ppr10k_3/reflect.webp",
+                ]
+            },
+            {
+                title: [ 
+                    "A playful person, jumping in puddles, having fun in the rain, in a city street",
+                    "A playful person, jumping in puddles, having fun in the rain, in a city street"
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/2-2-2-rain1.webp",
+                    "static/images/application/virtual-tryon/2-2-2-rain2.webp"
+                ]
+            },
+            {
+                title: [
+                    "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background",
+                    "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background"
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/2-2-1-guitar1.webp",
+                    "static/images/application/virtual-tryon/2-2-1-guitar2.webp",
+                ]
+            },
         ]
     },
     "stylization": {
@@ -225,15 +318,54 @@ const data = {
         "data" : [
             {
                 title: [
-                    "Anime",
-                    "Watercolor",
-                    "Pixelart"
+                    "Style: Anime artwork | Prompt: A delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree",
+                    "Style: Line art drawing | Prompt: A joyful person, stanading on a board, surfing a wave, in the ocean",
+                    "Style: Abstract expressionist painting | Prompt: An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
                 ],
-                input_image: "static/images/application/stylization/input.png",
+                input_image: "static/images/application/stylization/input1/input.webp",
                 images: [
-                    "static/images/application/stylization/anime.png",
-                    "static/images/application/stylization/watercolor.png",
-                    "static/images/application/stylization/pixelart.png"
+                    "static/images/application/stylization/input1/anime.webp",
+                    "static/images/application/stylization/input1/line.webp",
+                    "static/images/application/stylization/input1/abstract.webp"
+                ]
+            },
+            {
+                title: [
+                    "Style: Graffiti | Prompt: A thoughtful person, looking out a window, reflecting on life, in a cozy room",
+                    "Style: Watercolor painting | Prompt: A playful person, jumping in puddles, having fun in the rain, in a city street",
+                    "Style: Ethereal fantasy concept art | Prompt: An excited person, walking ahead, carrying shopping bags on a busy Japanese street",
+                ],
+                input_image: "static/images/application/stylization/input2/input.webp",
+                images: [
+                    "static/images/application/stylization/input2/graffiti.webp",
+                    "static/images/application/stylization/input2/watercolor.webp",
+                    "static/images/application/stylization/input2/fantasy.webp"
+                ]
+            },
+            {
+                title: [
+                    "Style: Pop Art | Prompt: A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background",
+                    "Style: Play-doh | Prompt: A happy person, stirring something in a pan, cooking a meal, in a modern kitchen",
+                    "Style: Pixel-art | Prompt: A passionate person, extending both arms, dancing on a wooden floor in a dimly lit room"
+                ],
+                input_image: "static/images/application/stylization/input3/input.webp",
+                images: [
+                    "static/images/application/stylization/input3/popart.webp",
+                    "static/images/application/stylization/input3/play.webp",
+                    "static/images/application/stylization/input3/pixel-art.webp",
+                ]
+            },
+            {
+                title: [
+                    "Style: Art nouveau | Prompt: A busy person, typing on a laptop, working diligently, in a modern office",
+                    "Style: Cubist artwork | Prompt: A tired person, running mid-stride, jogging through a city, surrounded by tall buildings",
+                    "Style: Comic | Prompt: A focused person, kneeling down, planting flowers, with a modern house in the background",
+                ],
+                input_image: "static/images/application/stylization/input4/input.webp",
+                images: [
+                    "static/images/application/stylization/input4/nouveau.webp",
+                    "static/images/application/stylization/input4/cubist.webp",
+                    "static/images/application/stylization/input4/comic.webp"
                 ]
             }
         ]
@@ -244,15 +376,41 @@ const data = {
         "data" : [
             {
                 title: [
-                    "Playing the guitar",
-                    "Opening the gift",
-                    "Skiing downhill"
+                    "A satisfied person, sitting on a park bench, eating a sandwich, surrounded by trees",
+                    "A proud person, standing and smiling broadly, holding a trophy, in the Olympic Stadium",
+                    "A delighted person, opening a gift, celebrating Christmas, in front of a Christmas tree"
                 ],
-                input_image: "static/images/application/character/input.png",
+                input_image: "static/images/application/character/input1/input.webp",
                 images: [
-                    "static/images/application/character/guitar.png",
-                    "static/images/application/character/gift.png",
-                    "static/images/application/character/skiing.png"
+                    "static/images/application/character/input1/sand.webp",
+                    "static/images/application/character/input1/trophy.webp",
+                    "static/images/application/character/input1/gift.webp",
+                ]
+            },
+            {
+                title: [
+                    "A curious person, running, exploring an ancient castle, in a magical realm",
+                    "An excited person, walking ahead, carrying shopping bags on a busy Japanese street",
+                    "A playful person, jumping in puddles, having fun in the rain, in a city street"
+                ],
+                input_image: "static/images/application/character/input2/input.webp",
+                images: [
+                    "static/images/application/character/input2/castle.webp",
+                    "static/images/application/character/input2/shopping.webp",
+                    "static/images/application/character/input2/puddle.webp"
+                ]
+            },
+            {
+                title: [
+                    "A passionate person, extending both arms, dancing on a wooden floor in a dimly lit room",
+                    "A heroic person, riding a beautiful unicorn, galloping through a rainbow, in a fantasy landscape",
+                    "A busy person, typing on a laptop, working diligently, in a modern office"
+                ],
+                input_image: "static/images/application/character/input3/input.webp",
+                images: [
+                    "static/images/application/character/input3/dancing.webp",
+                    "static/images/application/character/input3/unicorn.webp",
+                    "static/images/application/character/input3/laptop.webp"
                 ]
             }
         ]
@@ -266,6 +424,35 @@ for (let i = 0; i < tasks.length; i++) {
     currentSceneIndex[tasks[i]] = 0;
     twenty_inited[tasks[i]] = false;
 }
+
+const garmentSelected = {
+    A: "1",
+    B: "1",
+    C: "1"
+};
+
+// Mapping combinations to images
+const tryonSceneIndex = {
+    "1-1-1": "0",
+    "1-1-2": "1",
+    "1-2-1": "2",
+    "1-2-2": "3",
+    "2-1-1": "4",
+    "2-1-2": "5",
+    "2-2-1": "6",
+    "2-2-2": "7"
+};
+
+const sceneIndexToInput = [
+    "1-1-1",
+    "1-1-2",
+    "1-2-1",
+    "1-2-2",
+    "2-1-1",
+    "2-1-2",
+    "2-2-1",
+    "2-2-2",
+]
 
 // Generate the slides and thumbnails dynamically
 function generateSlides(taskName) {
@@ -336,6 +523,32 @@ function generateSlides(taskName) {
                 </div>
             `;
         });
+
+        if (taskName == 'tryon') {
+            let garments = data[taskName]['garments'];
+            
+            thumbnailsHTML = `
+                <div class="carousel-column">
+                    <div class="carousel-row">
+                        <img class="${taskName}-demo garmentA active cursor" src="${garments.upper[0]}" data-group="A" data-value="1">
+                        <img class="${taskName}-demo garmentA cursor" src="${garments.upper[1]}" data-group="A" data-value="2">
+                    </div>
+                </div>
+                <div class="carousel-column">
+                    <div class="carousel-row">
+                        <img class="${taskName}-demo garmentB active cursor" src="${garments.lower[0]}" data-group="B" data-value="1"">
+                        <img class="${taskName}-demo garmentB cursor" src="${garments.lower[1]}" data-group="B" data-value="2">
+                    </div>
+                </div>
+                <div class="carousel-column">
+                    <div class="carousel-row">
+                        <img class="${taskName}-demo garmentC active cursor" src="${garments.shoes[0]}" data-group="C" data-value="1">
+                        <img class="${taskName}-demo garmentC cursor" src="${garments.shoes[1]}" data-group="C" data-value="2">
+                    </div>
+                </div>
+                
+            `;
+        }
 
         const inputImageHTML = `
             <div class="col-sm-4" style="height: 100%; max-width: 50%">
@@ -490,8 +703,21 @@ function showSlides(n, taskName) {
         let sceneSlides = $(`.${taskName}-scene-${currentSceneIndex[taskName]}`);
         sceneSlides.eq(slideIndex - 1).show();
     }
+
+    if (taskName == 'tryon') {
+        let currentKey = sceneIndexToInput[Number(currentSceneIndex[taskName])];
+        let a = currentKey.split("-")[0];
+        let b = currentKey.split("-")[1];
+        let c = currentKey.split("-")[2];
+
+        $(`.tryon-demo[data-group="A"][data-value=${a}]`).addClass("active");
+        $(`.tryon-demo[data-group="B"][data-value=${b}]`).addClass("active");
+        $(`.tryon-demo[data-group="C"][data-value=${c}]`).addClass("active");
+        
+    } else {
+        dots.eq(currentSceneIndex[taskName]).addClass("active");
+    }
     
-    dots.eq(currentSceneIndex[taskName]).addClass("active");
     if (typeof scenes[currentSceneIndex[taskName]].title === 'string') {
         captionText.html(scenes[currentSceneIndex[taskName]].title);
     } else {
@@ -565,8 +791,16 @@ $(document).ready(function() {
     // Thumbnail click event
     $(document).on('click', '.cursor', function() {
         let taskName = $(this).attr('class').split('-')[0];
-        let sceneIndex = $(this).data('scene-index');
-        showScene(sceneIndex, taskName);
+        if (taskName == 'tryon') {
+            let group = $(this).attr('data-group');
+            let value = $(this).attr('data-value');
+            garmentSelected[group] = value;
+            let sceneIndex = tryonSceneIndex[`${garmentSelected.A}-${garmentSelected.B}-${garmentSelected.C}`]
+            showScene(sceneIndex, taskName);
+        } else {
+            let sceneIndex = $(this).data('scene-index');
+            showScene(sceneIndex, taskName);
+        }
     });
 
     // Navigation arrows click event
