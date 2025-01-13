@@ -231,15 +231,13 @@ const data = {
             },
             {
                 title: [
-                    "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
-                    "A tired person, running mid-stride, joggin through a city, surrounded by tall buildings",
                     "A focused person, sitting on a rock, sketching on paper, with mountains in the background",
+                    "A focused person, sitting on a rock, sketching on paper, with mountains in the background"
                 ],
                 input_image: "static/images/application/virtual-tryon/input.png",
                 images: [
-                    "static/images/teaser_webp/sshq_1/laptop.webp",
-                    "static/images/teaser_webp/sshq_1/gift.webp",
-                    "static/images/teaser_webp/sshq_1/reflect.webp",
+                    "static/images/application/virtual-tryon/1-1-2-mountain1.webp",
+                    "static/images/application/virtual-tryon/1-1-2-mountain2.webp"
                 ]
             },
             {
@@ -276,16 +274,25 @@ const data = {
                 ]
             },
             {
-                title: [
-                    "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
-                    "A tired person, running mid-stride, joggin through a city, surrounded by tall buildings",
-                    "A focused person, sitting on a rock, sketching on paper, with mountains in the background",
+                title: [ 
+                    "An excited person, walking ahead, carrying shopping bags on a busy Japanese street",
+                    "An excited person, walking ahead, carrying shopping bags on a busy Japanese street"
                 ],
                 input_image: "static/images/application/virtual-tryon/input.png",
                 images: [
-                    "static/images/teaser_webp/ppr10k_3/laptop.webp",
-                    "static/images/teaser_webp/ppr10k_3/gift.webp",
-                    "static/images/teaser_webp/ppr10k_3/reflect.webp",
+                    "static/images/application/virtual-tryon/2-1-2-shopping1.webp",
+                    "static/images/application/virtual-tryon/2-1-2-shopping2.webp"
+                                ]
+            },
+            {
+                title: [
+                    "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background",
+                    "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background"
+                ],
+                input_image: "static/images/application/virtual-tryon/input.png",
+                images: [
+                    "static/images/application/virtual-tryon/2-2-1-guitar1.webp",
+                    "static/images/application/virtual-tryon/2-2-1-guitar2.webp",
                 ]
             },
             {
@@ -299,17 +306,7 @@ const data = {
                     "static/images/application/virtual-tryon/2-2-2-rain2.webp"
                 ]
             },
-            {
-                title: [
-                    "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background",
-                    "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background"
-                ],
-                input_image: "static/images/application/virtual-tryon/input.png",
-                images: [
-                    "static/images/application/virtual-tryon/2-2-1-guitar1.webp",
-                    "static/images/application/virtual-tryon/2-2-1-guitar2.webp",
-                ]
-            },
+
         ]
     },
     "stylization": {
