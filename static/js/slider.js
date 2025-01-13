@@ -223,7 +223,7 @@ const data = {
                     "A focused person, kneeling down, planting flowers, with a modern house in the background",
                     "A focused person, kneeling down, planting flowers, with a modern house in the background",
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/1-1-1-flower1.webp",
                     "static/images/application/virtual-tryon/1-1-1-flower2.webp",
@@ -234,7 +234,7 @@ const data = {
                     "A focused person, sitting on a rock, sketching on paper, with mountains in the background",
                     "A focused person, sitting on a rock, sketching on paper, with mountains in the background"
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/1-1-2-mountain1.webp",
                     "static/images/application/virtual-tryon/1-1-2-mountain2.webp"
@@ -245,7 +245,7 @@ const data = {
                     "A happy person, standing on a branch, climbing a tree, surrounded by a dense jungle",
                     "A happy person, standing on a branch, climbing a tree, surrounded by a dense jungle"
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/1-2-1-jungle1.webp",
                     "static/images/application/virtual-tryon/1-2-1-jungle2.webp"
@@ -256,7 +256,7 @@ const data = {
                     "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings",
                     "An angry person, leaning forward, riding a bicycle on a cobblestone street, surrounded by old buildings"
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/1-2-2-bike1.webp",
                     "static/images/application/virtual-tryon/1-2-2-bike2.webp"
@@ -267,7 +267,7 @@ const data = {
                     "A proud person, standing and smiling broadly, holding a trophy, in the Olympic Stadium",
                     "A proud person, standing and smiling broadly, holding a trophy, in the Olympic Stadium"
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/2-1-1-trophy1.webp",
                     "static/images/application/virtual-tryon/2-1-1-trophy2.webp"
@@ -278,7 +278,7 @@ const data = {
                     "An excited person, walking ahead, carrying shopping bags on a busy Japanese street",
                     "An excited person, walking ahead, carrying shopping bags on a busy Japanese street"
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/2-1-2-shopping1.webp",
                     "static/images/application/virtual-tryon/2-1-2-shopping2.webp"
@@ -289,7 +289,7 @@ const data = {
                     "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background",
                     "A peaceful person, sitting, playing guitar at sunset, with a colorful sky in the background"
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/2-2-1-guitar1.webp",
                     "static/images/application/virtual-tryon/2-2-1-guitar2.webp",
@@ -300,7 +300,7 @@ const data = {
                     "A playful person, jumping in puddles, having fun in the rain, in a city street",
                     "A playful person, jumping in puddles, having fun in the rain, in a city street"
                 ],
-                input_image: "static/images/application/virtual-tryon/input.png",
+                input_image: "static/images/application/virtual-tryon/input.webp",
                 images: [
                     "static/images/application/virtual-tryon/2-2-2-rain1.webp",
                     "static/images/application/virtual-tryon/2-2-2-rain2.webp"
